@@ -3,7 +3,7 @@
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
 This is the official repository accompanying the BMVC 2022 paper:
-
+**S2-Flow: Joint Semantic and Style Editing of Facial Images**<br>
 [K. Singh](https://kris-singh.github.io/), [S. Schaub-Meyer](https://schaubsi.github.io/), and [S. Roth](https://www.visinf.tu-darmstadt.de/visinf/team_members/sroth/sroth.en.jsp). 
 
 # Abstract
