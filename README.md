@@ -1,9 +1,9 @@
-# S2-Flow: Joint Semantic and Style Editing of Facial Images
+# $S^2$-Flow: Joint Semantic and Style Editing of Facial Images
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
 This is the official repository accompanying the BMVC 2022 paper:<br>
-**S2-Flow: Joint Semantic and Style Editing of Facial Images**<br>
+**$S^2$-Flow: Joint Semantic and Style Editing of Facial Images**<br>
 [K. Singh](https://kris-singh.github.io/), [S. Schaub-Meyer](https://schaubsi.github.io/), and [S. Roth](https://www.visinf.tu-darmstadt.de/visinf/team_members/sroth/sroth.en.jsp). 
 
 # Abstract
@@ -11,10 +11,10 @@ This is the official repository accompanying the BMVC 2022 paper:<br>
 <img src="figures/abstract_condensed.jpg" width="800" />
 </p>
 
-**Figure:** S2-Flow is capable of applying semantic (top right), style (bottom right), and joint semantic and style edits (left) for facial images while preserving both identity and realism.
+**Figure:** $S^2$-Flow is capable of applying semantic (top right), style (bottom right), and joint semantic and style edits (left) for facial images while preserving both identity and realism.
 
 The high-quality images yielded by generative adversarial networks (GANs) have motivated investigations into their application for image editing. However, GANs are often limited in the control they provide for performing specific edits. One of the principal challenges is the entangled latent space of GANs, which is not directly suitable for performing independent and detailed edits. Recent editing methods allow for either controlled style edits or controlled semantic edits. In addition, methods that use semantic masks to edit images have difficulty preserving the identity and are unable to perform controlled style edits.
-We propose a method to disentangle a GAN’s latent space into semantic and style spaces, enabling controlled semantic and style edits for face images independently within the same framework. To achieve this, we design an encoder-decoder based network architecture (S2-Flow), which incorporates two proposed inductive biases. We show the suitability of S2-Flow quantitatively and qualitatively by performing various semantic and style edits. 
+We propose a method to disentangle a GAN’s latent space into semantic and style spaces, enabling controlled semantic and style edits for face images independently within the same framework. To achieve this, we design an encoder-decoder based network architecture $(S^2$-Flow), which incorporates two proposed inductive biases. We show the suitability of $S^2$-Flow quantitatively and qualitatively by performing various semantic and style edits. 
 
 [[Paper]()]
 
