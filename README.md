@@ -16,7 +16,7 @@ This is the official repository accompanying the BMVC 2022 paper:<br>
 The high-quality images yielded by generative adversarial networks (GANs) have motivated investigations into their application for image editing. However, GANs are often limited in the control they provide for performing specific edits. One of the principal challenges is the entangled latent space of GANs, which is not directly suitable for performing independent and detailed edits. Recent editing methods allow for either controlled style edits or controlled semantic edits. In addition, methods that use semantic masks to edit images have difficulty preserving the identity and are unable to perform controlled style edits.
 We propose a method to disentangle a GAN’s latent space into semantic and style spaces, enabling controlled semantic and style edits for face images independently within the same framework. To achieve this, we design an encoder-decoder based network architecture $(S^2$-Flow), which incorporates two proposed inductive biases. We show the suitability of $S^2$-Flow quantitatively and qualitatively by performing various semantic and style edits. 
 
-[[Paper]()]
+[[Paper](https://arxiv.org/abs/2211.12209)]
 
 
 # Installation
