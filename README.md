@@ -70,7 +70,7 @@ The disentanglement results are also stored in **results** folder, **random_imgs
 # Citation
 If you find our work useful in your research please consider citing our papers:
 ```
-@InProceedings{Singh2022S2Flow,
+@InProceedings{Singh:2022:SFJ,
     title   = {$S^2$-Flow: Joint Semantic and Style Editing of Facial Images}
     author  = {Krishnakant Singh and Simone Schaub-Meyer and Stefan Roth},
     booktitle = {British Machine Vision Conference (BMVC)},
